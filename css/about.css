@@ -1,0 +1,135 @@
+.about {
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.page-title {
+  width: 100%;
+  padding: 8vw;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('https://bit.ly/3AUujjA');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page-title h1 {
+  text-align: center;
+  font-size: 2.4em;
+  color: #fff;
+  font-weight: 400;
+}
+
+.about-info {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 100px 300px;
+  position: relative;
+}
+
+.about-info .about-col1 {
+  width: 30%;
+}
+
+.about-info .about-col1 img {
+  width: 300px;
+  max-width: 300px;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.08));
+}
+
+.about-info .about-col2 {
+  padding: 50px;
+}
+
+.about-col2 h2 {
+  font-size: 1.4em;
+  line-height: 1.6em;
+  font-weight: 300;
+}
+
+.about-col2 p {
+  font-size: 1.1em;
+  line-height: 1.4em;
+  color: #555;
+}
+
+.social-links {
+  margin: 8px 0;
+  display: flex;
+  gap: 12px;
+}
+
+.social-links Link {
+  text-decoration: none;
+}
+
+.social-links i {
+  font-size: 28px;
+  transition: 0.3s all ease-in-out;
+}
+
+.social-links i.fa-linkedin:hover {
+  color: #0072b1;
+}
+
+.social-links i.fa-github:hover {
+  color: #000;
+}
+
+.social-links i.fa-square-instagram:hover {
+  color: #dc2743;
+}
+
+@media screen and (max-width: 980px) {
+  .page-title {
+    padding: 10vw;
+  }
+  .page-title h1 {
+    font-size: 2.2em;
+  }
+  .about-info {
+    display: block;
+    padding: 30px;
+    justify-content: center;
+  }
+  .about-info .about-col1 {
+    width: 100%;
+    text-align: center;
+  }
+  .about-info .about-col1 img {
+    width: 80%;
+  }
+  .about-info .about-col2 {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .social-links {
+    position: absolute;
+    top: 20%;
+    right: 30px;
+    display: inline-block;
+    margin-top: 30px;
+  }
+  .social-links a {
+    display: block;
+    margin-bottom: 12px;
+  }
+  .social-links i {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page-title {
+    padding: 12vw;
+  }
+  .page-title h1 {
+    font-size: 2em;
+  }
+  .about-info .about-col1 img {
+    width: 60%;
+  }
+}
