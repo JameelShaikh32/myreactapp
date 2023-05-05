@@ -1,3 +1,25 @@
-h1, p {
-  font-family: Lato;
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rammetto One', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
 }
