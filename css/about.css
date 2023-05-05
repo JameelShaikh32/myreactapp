@@ -1,7 +1,6 @@
 .about {
   width: 100%;
   height: 100vh;
-  overflow: scroll;
 }
 
 .page-title {
@@ -24,7 +23,7 @@
   display: flex;
   width: 100%;
   height: auto;
-  padding: 100px 300px;
+  padding: 100px 200px;
   position: relative;
 }
 
@@ -56,7 +55,7 @@
 }
 
 .social-links {
-  margin: 8px 0;
+  margin: 25px 0;
   display: flex;
   gap: 12px;
 }
@@ -108,7 +107,7 @@
   }
   .social-links {
     position: absolute;
-    top: 20%;
+    top: 15%;
     right: 30px;
     display: inline-block;
     margin-top: 30px;

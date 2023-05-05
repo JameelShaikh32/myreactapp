@@ -61,7 +61,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="col">
-          <div className="social-links">
+          <div className="footer-social-links">
             <Link to={'#'}>
               <i className="fa-brands fa-linkedin"></i>
             </Link>
