@@ -62,10 +62,10 @@ const Footer = () => {
         </div>
         <div className="col">
           <div className="footer-social-links">
-            <Link to={'#'}>
+            <Link to={'https://www.linkedin.com/in/dev-jameel'}>
               <i className="fa-brands fa-linkedin"></i>
             </Link>
-            <Link to={'#'}>
+            <Link to={'https://www.github.com/JameelShaikh32'}>
               <i className="fa-brands fa-github"></i>
             </Link>
             <Link to={'#'}>
