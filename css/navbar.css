@@ -127,6 +127,7 @@ body {
   padding: 15px 25px;
   transition: 1s all ease-in-out;
   z-index: 999;
+  overflow: hidden;
 }
 
 .active-menu {
@@ -147,7 +148,6 @@ body {
 .mobile-nav-container .mobile-navbar {
   position: relative;
   top: 15%;
-  display: none;
 }
 
 .active-menu .mobile-navbar {
