@@ -14,9 +14,9 @@ const Contact = () => {
         <div className="contact-col2">
           <form>
             <div className="input-box">
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Email" />
-              <input type="phone" placeholder="Phone" />
+              <input type="text" placeholder="Name" required />
+              <input type="email" placeholder="Email" required />
+              <input type="phone" placeholder="Phone" required />
               <textarea placeholder="Address" />
             </div>
             <input type="submit" id="submitBtn" name="Submit" value="Submit" />
