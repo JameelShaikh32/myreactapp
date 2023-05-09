@@ -1,0 +1,44 @@
+.privacy-container h1 {
+  font-size: 1.4em;
+  line-height: 2em;
+}
+.privacy-container h2,
+.privacy-container h3 {
+  line-height: 1.8em;
+}
+
+.privacy-container h2 {
+  font-size: 1em;
+}
+
+.privacy-container p {
+  line-height: 1.8em;
+  padding: 0 15px;
+}
+
+.privacy-container a {
+  text-decoration: none;
+  color: rgb(195, 105, 255);
+}
+
+.privacy-container {
+  width: 100%;
+  padding: 50px;
+  background: rgb(195, 105, 255);
+}
+
+.privacy-policy {
+  width: 100%;
+  background: #fff;
+  padding: 0 30px;
+  border-radius: 25px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
+}
+
+.row {
+  padding: 15px 0;
+}
+
+ul {
+  padding: 0 35px;
+}
