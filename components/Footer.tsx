@@ -31,7 +31,7 @@ const Footer = () => {
               <Link to={'/privacypolicy'}>Privacy Policy</Link>
             </li>
             <li>
-              <Link to={''}>Support</Link>
+              <Link to={'/contact'}>Support</Link>
             </li>
           </ul>
         </div>
@@ -57,7 +57,7 @@ const Footer = () => {
       <div className="footer-row copyright">
         <div className="col">
           <p>
-            &copy; {year} <Link to={''}>company-name.com</Link>
+            &copy; {year} <Link to={'/'}>company-name.com</Link>
           </p>
         </div>
         <div className="col">

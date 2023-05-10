@@ -34,6 +34,10 @@
   width: 100%;
 }
 
+.contact-col2 form h2 {
+  margin-bottom: 15px;
+}
+
 .input-box {
   width: 100%;
   position: relative;
@@ -58,12 +62,48 @@
   border: 1px solid rgb(45, 189, 255);
 }
 
+.placeholder {
+  position: absolute;
+  top: 30%;
+  left: 15px;
+  background: #fff;
+  padding: 0px 6px;
+  font-size: 14px;
+  transition: top 0.3s ease-in-out;
+}
+
+.input-box input:focus ~ .placeholder {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  background: #fff;
+  padding: 2px 6px;
+}
+
 .input-box textarea {
   width: 100%;
   border: 1px solid #999;
   outline: none;
   margin: 8px 0;
   padding: 12px 16px;
+}
+
+.input-box textarea ~ .placeholder {
+  position: absolute;
+  top: 20%;
+  left: 15px;
+  background: #fff;
+  padding: 0px 6px;
+  font-size: 14px;
+  transition: top 0.3s ease-in-out;
+}
+
+.input-box textarea:focus ~ .placeholder {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  background: #fff;
+  padding: 2px 6px;
 }
 
 #submitBtn {

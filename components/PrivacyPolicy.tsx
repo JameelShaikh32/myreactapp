@@ -60,7 +60,7 @@ const PrivacyPolicy = () => {
               <p>
                 <strong>Company</strong> (referred to as either &quot;the
                 Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot;
-                in this Agreement) refers to Byte School, Mumbai, Maharashtra,
+                in this Agreement) refers to Unknown, Mumbai, Maharashtra,
                 India.
               </p>
             </li>
@@ -122,13 +122,13 @@ const PrivacyPolicy = () => {
             </li>
             <li>
               <p>
-                <strong>Website</strong> refers to Byte School, accessible from{' '}
+                <strong>Website</strong> refers to Unknown, accessible from{' '}
                 <Link
-                  to="http://byteschool.in/"
+                  to="http://unknown.in/"
                   rel="external nofollow noopener"
                   target="_blank"
                 >
-                  http://byteschool.in/
+                  http://unknown.in/
                 </Link>
               </p>
             </li>
@@ -581,17 +581,17 @@ const PrivacyPolicy = () => {
           </p>
           <ul>
             <li>
-              <p>By email: no-reply@byteschool.in</p>
+              <p>By email: no-reply@unknown.in</p>
             </li>
             <li>
               <p>
                 By visiting this page on our website:{' '}
                 <Link
-                  to="http://byteschool.in/contact"
+                  to="http://unknown.in/contact"
                   rel="external nofollow noopener"
                   target="_blank"
                 >
-                  http://byteschool.in/contact
+                  http://unknown.in/contact
                 </Link>
               </p>
             </li>

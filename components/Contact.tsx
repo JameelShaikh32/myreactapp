@@ -13,11 +13,22 @@ const Contact = () => {
         </div>
         <div className="contact-col2">
           <form>
+            <h2>Get In Touch With Us</h2>
             <div className="input-box">
-              <input type="text" placeholder="Name" required />
-              <input type="email" placeholder="Email" required />
-              <input type="phone" placeholder="Phone" required />
-              <textarea placeholder="Address" />
+              <input type="text" required />
+              <span className="placeholder">Name</span>
+            </div>
+            <div className="input-box">
+              <input type="email" required />
+              <span className="placeholder">Email</span>
+            </div>
+            <div className="input-box">
+              <input type="phone" required />
+              <span className="placeholder">Phone</span>
+            </div>
+            <div className="input-box">
+              <textarea />
+              <span className="placeholder">Address</span>
             </div>
             <input type="submit" id="submitBtn" name="Submit" value="Submit" />
           </form>
