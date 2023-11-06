@@ -4,7 +4,7 @@ import '../css/hero.css';
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" transition-style="in:circle:top-right">
       <h1>Hey, I'm Unknown</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione

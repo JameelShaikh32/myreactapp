@@ -3,7 +3,7 @@ import '../css/contact.css';
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" transition-style="in:circle:top-right">
       <div className="page-title">
         <h1>Contact</h1>
       </div>

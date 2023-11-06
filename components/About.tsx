@@ -4,7 +4,7 @@ import '../css/about.css';
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" transition-style="in:circle:top-right">
       <div className="page-title">
         <h1>About</h1>
       </div>

@@ -4,7 +4,7 @@ import '../css/privacypolicy.css';
 
 const PrivacyPolicy = () => {
   return (
-    <div className="privacy-container">
+    <div className="privacy-container" transition-style="in:circle:top-right">
       <div className="privacy-policy">
         <div className="row">
           <h1>Privacy Policy</h1>

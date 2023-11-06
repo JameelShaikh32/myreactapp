@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './style.css';
+import 'transition-style';
+
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
