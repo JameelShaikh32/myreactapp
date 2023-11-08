@@ -2,11 +2,13 @@
   position: relative;
   width: 100%;
   height: 100vh;
+  background-color: #fff;
 }
 
 .contact-form {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;

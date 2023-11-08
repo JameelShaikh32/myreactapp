@@ -22,4 +22,9 @@ a {
 
 body {
   font-family: 'Ubuntu', sans-serif;
+  background-color: #000;
+}
+
+[transition-style='in:circle:top-right'] {
+  --transition__duration: 3s;
 }
